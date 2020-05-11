@@ -1,2 +1,5 @@
 var s = G$("samet", "kayretli");
-console.log(s);
+
+s.greet();
+s.greet(true);
+s.greet().setLang("tr").greet(true);
